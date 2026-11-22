@@ -3,10 +3,10 @@
 **Environment:** Contoso Electronics lab tenant
 
 **Subscriptions identified:**
-- Microsoft 365 E5 (no Teams): 20/20 licences assigned
-- Microsoft Teams Enterprise: 20/20 licences assigned
+- Microsoft 365 E5 (no Teams): 18/20 licences assigned
+- Microsoft Teams Enterprise: 18/20 licences assigned
 
-**Available licences:** 0 for both subscriptions.
+**Available licences:** 2 for both subscriptions.
 
 **Identity security capabilities:** Microsoft 365 E5 includes Entra ID P2.
 

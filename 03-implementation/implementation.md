@@ -155,3 +155,54 @@ targeting and simplifies identity access management.
 
 
 
+# Phase 4 — Read-Only Security Access Group
+
+## Business Scenario
+
+Contoso Professional Services requires its SOC analysts
+to view security dashboards and investigate security
+events without unnecessary administrative permissions.
+
+## Security Objective
+
+Implement least-privilege access using Microsoft
+Entra ID role-based access control (RBAC).
+
+## Planned Implementation
+
+- Group: SG-Security-ReadOnly-Access
+- Group type: Security
+- Membership type: Assigned
+- Role assignable: Yes (subject to prerequisites)
+- Intended member: Daniel Silva
+- Intended role: Security Reader
+
+## Security Rationale
+
+Using a role-assignable security group supports
+centralised management of administrative role
+assignments and simplifies access reviews.
+
+## Validation
+
+- Group creation: Pending verification
+- Role-assignable setting: Pending verification
+- Daniel's membership: Pending verification
+- Security Reader assignment: Not yet performed
+- Read-only access testing: Pending
+
+## Evidence
+
+![Read-Only Security Group](../screenshots-sanitised/06-read-only-security-group.png)
+
+## Next Steps
+
+1. Verify group creation and membership.
+2. Assign the least-privileged Security Reader role.
+3. Test successful read-only access.
+4. Verify administrative changes are denied.
+5. Review relevant audit logs.
+
+
+
+

@@ -233,4 +233,37 @@ and simplified employee offboarding.
 
 
 
+## Conditional Access Validation
+
+### Policy
+CA-Require-MFA-SOC-Users
+
+### What If Evaluation
+- Test user: Daniel Silva
+- Grant control: Require multifactor authentication
+- Policy state: Report-only
+- Simulated policy match: Successful
+- Emergency-access exclusion: [Record result]
+
+### Actual Sign-in Validation
+- Test resource: [Enter application]
+- Sign-in result: [Enter result]
+- Report-only outcome: [Enter result]
+- MFA enforcement: Not enabled
+
+### Security Outcome
+The What If simulation confirmed that the
+MFA policy matches the selected test conditions.
+
+Actual sign-in validation and emergency-access
+exclusion testing are documented separately.
+
+### Evidence
+
+![What If Evaluation](../screenshots-sanitised/10-conditional-access-what-if.png)
+
+![Sign-in Validation](../screenshots-sanitised/11-mfa-signin-validation.png)
+
+
+
 

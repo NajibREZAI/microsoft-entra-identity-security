@@ -99,3 +99,59 @@ Sanitised group overview and membership screenshots.
 
 
 
+# Phase 3 — MFA Security Group
+
+## Business Requirement
+
+Contoso Professional Services requires stronger
+authentication controls for Security Operations
+employees to reduce the risk of unauthorised access.
+
+## Implementation
+
+Platform: Microsoft Entra ID
+
+Security group configuration:
+
+- Group name: SG-CA-MFA-Required
+- Group type: Security
+- Membership type: Assigned
+- Role assignable: No
+- Test user: Daniel Silva
+
+## Security Rationale
+
+The group is designed to target authorised SOC users
+with a future Conditional Access policy requiring MFA.
+
+Using security groups supports centralised policy
+targeting and simplifies identity access management.
+
+## Validation
+
+- Group creation: Pending verification
+- Daniel Silva membership: Pending verification
+- Conditional Access policy: Not yet configured
+- MFA enforcement: Not yet tested
+
+## Evidence
+
+### MFA Security Group Overview
+
+![MFA Group Overview](../screenshots-sanitised/05-mfa-group-overview.png)
+
+### Group Membership
+
+![Daniel Silva Membership](../screenshots-sanitised/06-mfa-group-members.png)
+
+## Next Steps
+
+1. Verify Conditional Access licensing.
+2. Confirm emergency-access account protection.
+3. Create the MFA Conditional Access policy.
+4. Configure report-only mode.
+5. Validate policy targeting using the What If tool.
+6. Review sign-in logs before enforcement.
+
+
+

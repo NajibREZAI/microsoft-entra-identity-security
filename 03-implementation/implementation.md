@@ -220,8 +220,8 @@ using centralised Microsoft Entra group membership.
 ### Validation Results
 - Licence state: Active
 - Group-based inheritance: Verified
-- Redundant direct assignment: [Record final result]
-- Required services: [Record verification result]
+- Redundant direct assignment: NA
+- Required services: NA
 
 ### Security Outcome
 Group-based licensing supports consistent

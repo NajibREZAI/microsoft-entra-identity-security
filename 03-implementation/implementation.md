@@ -205,4 +205,32 @@ assignments and simplifies access reviews.
 
 
 
+## Group-Based Licensing — Validation
+
+### Business Requirement
+Provision Microsoft 365 E5 licensing to Daniel Silva
+using centralised Microsoft Entra group membership.
+
+### Implementation
+- User: Daniel Silva
+- Group: SG-LIC-M365-E5-SOC
+- Product: Microsoft 365 E5 (no Teams)
+- Assignment method: Group-based licensing
+
+### Validation Results
+- Licence state: Active
+- Group-based inheritance: Verified
+- Redundant direct assignment: [Record final result]
+- Required services: [Record verification result]
+
+### Security Outcome
+Group-based licensing supports consistent
+licence provisioning, centralised administration
+and simplified employee offboarding.
+
+### Evidence
+![Group-Based Licensing](../screenshots-sanitised/07-group-based-licensing-verified.png)
+
+
+
 

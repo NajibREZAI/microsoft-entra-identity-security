@@ -243,12 +243,12 @@ CA-Require-MFA-SOC-Users
 - Grant control: Require multifactor authentication
 - Policy state: Report-only
 - Simulated policy match: Successful
-- Emergency-access exclusion: [Record result]
+- Emergency-access exclusion: myself -- Adminstrator
 
 ### Actual Sign-in Validation
-- Test resource: [Enter application]
-- Sign-in result: [Enter result]
-- Report-only outcome: [Enter result]
+- Test resource: NA
+- Sign-in result: NA
+- Report-only outcome: NA
 - MFA enforcement: Not enabled
 
 ### Security Outcome

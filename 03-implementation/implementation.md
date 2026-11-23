@@ -266,4 +266,50 @@ exclusion testing are documented separately.
 
 
 
+# Phase 6 — Security Reader RBAC
+
+## Business Scenario
+
+Contoso requires SOC analysts to investigate
+security information without granting excessive
+administrative privileges.
+
+## Security Objective
+
+Implement least-privilege access using
+Microsoft Entra ID Role-Based Access Control.
+
+## Implementation
+
+- Test user: Daniel Silva
+- Security group: SG-Security-ReadOnly-Access
+- Intended role: Security Reader
+- Assignment method: Group-based RBAC
+
+## Validation
+
+- Group role-assignable: Pending verification
+- Security Reader assignment: Pending
+- Daniel's inherited role: Pending
+- Read-only access: Pending
+- Administrative changes denied: Pending
+
+## Security Rationale
+
+The Security Reader role enables appropriate
+visibility into security information without
+granting broad configuration permissions.
+
+## Evidence
+
+![Role Assignment](../screenshots-sanitised/12-security-reader-role-assignment.png)
+
+![Inherited Role](../screenshots-sanitised/13-daniel-inherited-security-role.png)
+
+![Read-only Access](../screenshots-sanitised/14-security-reader-access-test.png)
+
+![Administrative Restriction](../screenshots-sanitised/15-administrative-access-denied.png)
+
+
+
 

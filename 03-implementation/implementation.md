@@ -302,13 +302,10 @@ granting broad configuration permissions.
 
 ## Evidence
 
-![Role Assignment](../screenshots-sanitised/12-security-reader-role-assignment.png)
+![Role Assignment](../screenshots-sanitised/13-security-reader-assignment.png)
 
-![Inherited Role](../screenshots-sanitised/13-daniel-inherited-security-role.png)
+![Inherited Role](../screenshots-sanitised/14-daniel-security-reader-active.png)
 
-![Read-only Access](../screenshots-sanitised/14-security-reader-access-test.png)
-
-![Administrative Restriction](../screenshots-sanitised/15-administrative-access-denied.png)
 
 
 

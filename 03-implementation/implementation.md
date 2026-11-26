@@ -308,7 +308,7 @@ granting broad configuration permissions.
 
 
 
-## Phase 7 – SharePoint Team Site Provisioning
+## Phase 7.2 – SharePoint Team Site Provisioning
 
 ### Objective
 
@@ -354,6 +354,82 @@ environment for Security Operations personnel.
 User access is managed centrally through Microsoft
 Entra ID group membership, reducing the need for
 individual permission assignments.
+
+
+
+## Phase 7.3 – SharePoint External Sharing Restrictions
+
+### Business Scenario (For quick understanding --- mentioned scenario on purpose AGAIN)
+
+Daniel Silva, as a newly onboarded Cybersecurity Analyst,
+requires access to confidential Security Operations
+documents. However, the organisation must prevent
+these documents from being shared with external
+individuals through SharePoint.
+
+### Objective
+
+Implement site-level external sharing restrictions
+to reduce unauthorised disclosure while maintaining
+authorised internal collaboration.
+
+### Implementation
+
+1. Accessed the SharePoint Admin Center.
+2. Navigated to Sites > Active sites.
+3. Selected M365-Security-Operations.
+4. Opened the external sharing settings.
+5. Selected "Only people in your organization".
+6. Saved and verified the security configuration.
+
+### Security Configuration
+
+| Parameter | Configuration |
+|---|---|
+| Target resource | M365-Security-Operations |
+| Policy scope | Site level |
+| External sharing | Disabled |
+| Anonymous sharing | Disabled |
+| External guest access | Restricted |
+| Authorised internal collaboration | Permitted |
+
+### Security Controls Demonstrated
+
+- Identity and Access Management (IAM)
+- Least Privilege Access
+- Data Access Governance
+- External Sharing Restrictions
+- Insider Risk Mitigation
+- Defence in Depth
+
+### Implementation Evidence
+
+#### External Sharing Configuration
+
+![External Sharing Restrictions](../screenshots-sanitised/phase7-04b-sharing-restricted.png)
+
+#### Configuration Verification
+
+![Policy Verification](../screenshots-sanitised/phase7-04c-sharing-verified.png)
+
+### Expected Security Outcome
+
+Authorised Security Operations personnel can
+collaborate internally while external sharing
+through SharePoint is restricted, reducing the
+risk of accidental or unauthorised data disclosure.
+
+### Control Limitations
+
+This configuration does not prevent users from
+downloading documents and distributing them through
+other channels. Additional Data Loss Prevention
+(DLP) controls are required to mitigate this risk.
+
+### Validation Status
+
+- Administrative configuration: Verified
+- End-user enforcement testing: Pending Phase 7.4
 
 
 

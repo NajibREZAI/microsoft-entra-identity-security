@@ -308,5 +308,55 @@ granting broad configuration permissions.
 
 
 
+## Phase 7 – SharePoint Team Site Provisioning
+
+### Objective
+
+Implement identity-based access to Security Operations
+resources using Microsoft Entra ID, Microsoft 365 Groups
+and SharePoint Online.
+
+### Implementation
+
+- Verified the Microsoft 365 group-connected
+  SharePoint team site.
+- Confirmed the site was configured as private.
+- Verified Daniel Silva's standard group membership.
+- Maintained separation between administrative
+  and standard user permissions.
+
+### Security Controls
+
+- Group-based access management
+- Role-based access control (RBAC)
+- Least privilege
+- Centralised identity governance
+
+### Implementation Evidence
+
+#### SharePoint Active Sites
+
+![Active Sites](../screenshots-sanitised/phase7-03a-active-sites.png)
+
+#### Site Membership
+
+![Site Membership](../screenshots-sanitised/phase7-03b-site-membership.png)
+
+#### SharePoint Team Site
+
+![Team Site](../screenshots-sanitised/phase7-03c-sharepoint-homepage.png)
+
+### Security Outcome
+
+Established a group-connected collaboration
+environment for Security Operations personnel.
+
+User access is managed centrally through Microsoft
+Entra ID group membership, reducing the need for
+individual permission assignments.
+
+
+
+
 
 

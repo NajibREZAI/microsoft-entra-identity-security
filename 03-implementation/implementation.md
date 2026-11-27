@@ -45,7 +45,7 @@ Checks:
 
 Add screenshots after verification:
 
-![Sanitised user overview](../screenshots-sanitised/01-daniel-user-overview0.png)
+![Sanitised user overview](../screenshots-sanitised/01-daniel-user-overview.png)
 
 ![Sanitised user properties](../screenshots-sanitised/02-daniel-user-properties.png)
 
